@@ -1,0 +1,22 @@
+_G.cannon = true
+--_G.walkspeed = 70
+
+_G.movement = "Walk"
+_G.tweenspeed = 6
+
+_G.blacklistedfields = {"Mountain Top Field"}
+_G.fireflies = false
+_G.webhook = ""
+
+_G.sprouts = false
+_G.rarity = {Basic = true, Rare = true, Moon = true, Gummy = true, ["Epic+"] = true}
+
+_G.vicious = true
+_G.giftedonly = false
+_G.viciousmin = 1
+_G.viciousmax = 12
+
+_G.windy = false
+_G.windymin = 1
+_G.windymax = 25
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Chris12089/atlasbss/main/serverhop.lua"))()
